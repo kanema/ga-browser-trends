@@ -1,0 +1,27 @@
+{
+  "name": "ga-browser-trends",
+  "description": "A graphic analyzer in node.js of tendency of web browsers in Google Analytics. Using Google API analytics to understand your users.",
+  "version": "0.0.9",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+	"url": "https://github.com/kanema/ga-browser-trends"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "*",
+    "stylus": "*",
+    "googleanalytics": "0.3.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
